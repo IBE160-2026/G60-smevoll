@@ -51,6 +51,12 @@ _bmad/custom/*.user.toml
 _bmad/render/
 .claude/settings.local.json
 
+# BMAD planning artifacts: keep only the product brief itself, not the
+# brainstorming notes, PRDs, reconciliation notes or generation memlogs
+.docs/brainstorming/
+.docs/planning-artifacts/prds/
+.docs/planning-artifacts/**/.memlog.md
+
 # Operating system / editors
 .DS_Store
 Thumbs.db
