@@ -23,10 +23,12 @@ Oppdatere product brief for FocusApp etter faglærerens tilbakemelding (`tilbake
 - `.memlog.md` er opprettet i brief-mappen (36 oppføringer).
 - `FocusApp/` er flyttet fra `E:\Skole\IBE160\` inn i repoet (ukommittert, untracked). `_bmad` og `.claude` der er identiske kopier. `.docs` har i tillegg et PRD-utkast og brainstorming fra 2026-09-15.
 - Rydding i `FocusApp/`: slettet 266 filer som var identiske kopier av filer i repoet (hele `_bmad` og `.claude`, samt det som var likt i `.docs`, inkludert gammel `brief.md` som er lik den committede versjonen). Igjen er bare 6 unike filer: brainstorming, PRD-utkast med `reconcile-brief.md`, og tre `.memlog.md`.
+- De 6 gjenværende filene er flyttet inn i `.docs/`: brainstorming → `.docs/brainstorming/`, PRD-utkast → `.docs/planning-artifacts/prds/`, og den gamle brief-loggen → `brief-FocusApp-2026-09-15/.memlog-2026-09-15.md`. `FocusApp/` er slettet.
+- `.gitignore` (ukommittert): fjernet regelen `.docs/planning-artifacts/**/.memlog.md`, slik at beslutningsloggene for briefen kan committes. Grunnen er at faglæreren vil se beslutningsprosessen. Brainstorming og PRD-utkast holdes fortsatt utenfor git.
 - Statuslinje (utenfor repoet): `~/.claude/statusline.ps1` og `statusLine` i `~/.claude/settings.json`. Viser modell, sti, branch, kontekst og 5t/7d-grenser med tid til nullstilling. Skriptet er ikke testet av Claude, fordi testkjøringen ble blokkert.
 
 ### Åpne punkter
 - Lag en teknisk prototype (en minimal utvidelse med advarselsvindu på ett blokkert nettsted) før PRD-en, og avgjør der om advarselen skal ha lyd.
 - Dokumenter hvorfor planleggingsdokumentene ble fjernet i commit `3cdb256`, som faglæreren ba om.
-- Avgjør om de 6 gjenværende filene i `FocusApp/.docs` (PRD-utkast, brainstorming, memlogger) skal beholdes, flyttes inn i `.docs` eller slettes.
+- Informer gruppen om at `.gitignore` nå tillater beslutningsloggene (`.memlog.md`) for briefen, siden regelen ble laget i fellesskap.
 - Neste BMAD-steg etter prototypen: PRD (`bmad-prd`).
