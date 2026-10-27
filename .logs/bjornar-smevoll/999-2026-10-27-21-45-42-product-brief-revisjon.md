@@ -26,7 +26,7 @@ Oppdatere product brief for FocusApp etter faglærerens tilbakemelding (`tilbake
 - De 6 gjenværende filene er flyttet inn i `.docs/`: brainstorming → `.docs/brainstorming/`, PRD-utkast → `.docs/planning-artifacts/prds/`, og den gamle brief-loggen → `brief-FocusApp-2026-09-15/.memlog-2026-09-15.md`. `FocusApp/` er slettet.
 - `.gitignore` (ukommittert): fjernet regelen `.docs/planning-artifacts/**/.memlog.md`, slik at beslutningsloggene for briefen kan committes. Grunnen er at faglæreren vil se beslutningsprosessen. Brainstorming og PRD-utkast holdes fortsatt utenfor git.
 - Committet og pushet til `origin/main` som `9f2ef7d` («Revise product brief after teacher feedback»): `brief.md`, begge `.memlog`-filene og `.gitignore`.
-- Statuslinje (utenfor repoet): `~/.claude/statusline.ps1` og `statusLine` i `~/.claude/settings.json`. Viser modell, sti, branch, kontekst og 5t/7d-grenser med tid til nullstilling. Skriptet er ikke testet av Claude, fordi testkjøringen ble blokkert.
+- Statuslinje (utenfor repoet): `~/.claude/statusline.ps1` og `statusLine` i `~/.claude/settings.json`. Viser modell, sti, branch, kontekst (prosent pluss brukt/total, f.eks. `24k/200k`) og 5t/7d-grenser med tid til nullstilling. Skriptet er ikke testet av Claude, fordi testkjøringen ble blokkert.
 
 ### Åpne punkter
 - Lag en teknisk prototype (en minimal utvidelse med advarselsvindu på ett blokkert nettsted) før PRD-en, og avgjør der om advarselen skal ha lyd.
