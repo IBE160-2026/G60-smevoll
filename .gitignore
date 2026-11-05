@@ -51,10 +51,13 @@ _bmad/custom/*.user.toml
 _bmad/render/
 .claude/settings.local.json
 
-# BMAD planning artifacts: keep the product brief and its decision logs
-# (.memlog.md), not the brainstorming notes, PRDs or reconciliation notes
+# BMAD planning artifacts: keep the product brief, the current PRD and their
+# decision logs (.memlog.md), not the brainstorming notes, the outdated PRD
+# or reconciliation and review notes
 .docs/brainstorming/
-.docs/planning-artifacts/prds/
+.docs/planning-artifacts/prds/prd-FocusApp-2026-09-15/
+.docs/planning-artifacts/prds/**/reconcile-*.md
+.docs/planning-artifacts/prds/**/review-*.md
 
 # Operating system / editors
 .DS_Store
