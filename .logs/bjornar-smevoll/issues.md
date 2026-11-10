@@ -6,7 +6,9 @@
 - [x] 2026-10-27 [product-brief-revisjon](999-2026-10-27-21-45-42-product-brief-revisjon.md) — avgjør om de 6 gjenværende filene i `FocusApp/.docs` skal beholdes (løst 2026-10-27: flyttet inn i `.docs`)
 - [ ] 2026-10-27 [product-brief-revisjon](999-2026-10-27-21-45-42-product-brief-revisjon.md) — informer gruppen om at `.gitignore` nå tillater beslutningsloggene (`.memlog.md`) for briefen
 - [x] 2026-10-27 [product-brief-revisjon](999-2026-10-27-21-45-42-product-brief-revisjon.md) — neste BMAD-steg: PRD (`bmad-prd`) (løst 2026-11-05: PRD startet, se prd-focusapp)
-- [ ] 2026-11-05 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — fullfør PRD-en: ta stilling til antakelsene i UJ-3, navn på byggene, demomodus og blokkering etter ubemerket ferdig økt; deretter UJ-4, streak, Chrome lukket midt i en økt, og funksjoner og krav
+- [x] 2026-11-05 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — fullfør PRD-en: ta stilling til antakelsene i UJ-3, navn på byggene, demomodus og blokkering etter ubemerket ferdig økt; deretter UJ-4, streak, Chrome lukket midt i en økt, og funksjoner og krav (løst 2026-11-10)
 - [ ] 2026-11-05 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — avgjør om briefen skal oppdateres med den bredere målgruppen
 - [ ] 2026-11-05 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — rett `project_name` i `_bmad/bmm/config.yaml` (står som `TCGBuilder`)
 - [ ] 2026-11-05 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — informer gruppen om at `.gitignore` nå også tillater gjeldende PRD
+- [ ] 2026-11-10 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — avklar fire hull i PRD-utkastet: lengdegrenser (FR-2), slutt på pause (FR-6), «Avbryt økt» som eneste lukking (D-2), stoppe økt tidlig
+- [ ] 2026-11-10 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — fullfør PRD-en: gå gjennom beslutningsloggen, kjør reviewere, puss språket, sett status `final`
