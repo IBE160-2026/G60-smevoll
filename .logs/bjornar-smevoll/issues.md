@@ -10,5 +10,8 @@
 - [ ] 2026-11-05 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — avgjør om briefen skal oppdateres med den bredere målgruppen
 - [ ] 2026-11-05 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — rett `project_name` i `_bmad/bmm/config.yaml` (står som `TCGBuilder`)
 - [ ] 2026-11-05 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — informer gruppen om at `.gitignore` nå også tillater gjeldende PRD
-- [ ] 2026-11-10 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — avklar fire hull i PRD-utkastet: lengdegrenser (FR-2), slutt på pause (FR-6), «Avbryt økt» som eneste lukking (D-2), stoppe økt tidlig
-- [ ] 2026-11-10 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — fullfør PRD-en: gå gjennom beslutningsloggen, kjør reviewere, puss språket, sett status `final`
+- [x] 2026-11-10 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — avklar fire hull i PRD-utkastet: lengdegrenser (FR-2), slutt på pause (FR-6), «Avbryt økt» som eneste lukking (D-2), stoppe økt tidlig (løst 2026-11-16)
+- [x] 2026-11-10 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — fullfør PRD-en: gå gjennom beslutningsloggen, kjør reviewere, puss språket, sett status `final` (løst 2026-11-16)
+- [ ] 2026-11-16 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — gå gjennom middels/lave review-funn (lokale `review-*.md`) ved arkitekturen
+- [ ] 2026-11-16 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — bygg teknisk prototype før arkitekturen; avklarer åpne spørsmål 2 og 5 i PRD-en
+- [ ] 2026-11-16 [prd-focusapp](998-2026-11-05-19-33-58-prd-focusapp.md) — neste BMAD-steg: UX (`bmad-ux`), inkl. byggnavn og én fane vs. popup
